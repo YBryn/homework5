@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.buttonON {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 130px;
+    height: 67px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+h2 {
+    font-size: 18px;    
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 220px;
+
+}
