@@ -7,7 +7,7 @@ if (storedTheme) {
     document.body.classList.add(storedTheme);
 }
 if (lastAction) {
-    document.querySelector(storedTheme === 'dark' ? '#lastTrnOffDate' : '#lastTrnOnDate').textContent = lastAction;
+    document.querySelector(storedTheme === 'dark' ? '#lastTrnOffDate' : '#lastTrnOffDate').textContent = lastAction;
 }
 
 toggleButton.addEventListener('click', () => {
@@ -26,7 +26,6 @@ toggleButton.addEventListener('click', () => {
 
 window.addEventListener('beforeunload', () => {
     localStorage.removeItem('theme');
-    localStorage.removeItem('lastAction');
 });
 
 function formatDate(date) {
